@@ -516,3 +516,13 @@ type Chart3DData struct {
 	// The style setting of the text label in a single bar.
 	Label *Label `json:"label,omitempty"`
 }
+
+type TreeData struct {
+	// Name of the data item.
+	Name string `json:"name,omitempty"`
+
+	// Value of the data item.
+	Value int `json:"value,omitempty"`
+
+	Children []*TreeData `json:"children,omitempty"`
+}
