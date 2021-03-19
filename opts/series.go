@@ -305,8 +305,13 @@ type TreeLeaves struct {
 	// The style setting of the text label in a single bar.
 	Label *Label `json:"label,omitempty"`
 
-	// ItemStyle settings in this series data.
-	ItemStyle *ItemStyle `json:"itemStyle,omitempty"`
+	/*
+		// LineStyle settings in this series data.
+		LineStyle *LineStyle `json:"lineStyle,omitempty"`
+
+		// ItemStyle settings in this series data.
+		ItemStyle *ItemStyle `json:"itemStyle,omitempty"`
+	*/
 
 	// Emphasis settings in this series data.
 	Emphasis *Emphasis `json:"emphasis,omitempty"`
