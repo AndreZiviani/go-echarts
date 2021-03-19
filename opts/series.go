@@ -46,6 +46,8 @@ type Label struct {
 	// {@xxx}: the value of a dimension named"xxx", for example,{@product}refers the value of"product"` dimension.
 	// {@[n]}: the value of a dimension at the index ofn, for example,{@[3]}` refers the value at dimensions[3].
 	Formatter string `json:"formatter,omitempty"`
+
+	Padding interface{} `json:"padding,omitempty"`
 }
 
 // LabelLine Configuration of label guide line.
